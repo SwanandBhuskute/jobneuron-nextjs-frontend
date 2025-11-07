@@ -1,0 +1,161 @@
+/* === Result Section Container === */
+.resultSection {
+  background: #fff;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 75rem;
+  height: 40rem;
+  margin: 6rem auto 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-family: var(--font-space-grotesk), "Space Grotesk", sans-serif;
+}
+
+/* === Left Orange Column === */
+.resultLeft {
+  flex: 1.5;
+  background-color: #f55d1d;
+  color: #fff;
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.resultTagline {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.9;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.resultHeading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+/* === Stat Boxes === */
+.resultStats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  width: 60%;
+}
+
+.resultStatBox {
+  border: 1px solid #fff;
+  border-radius: 0.1rem;
+  padding: 1rem;
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.resultStatNumber {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+
+.resultStatsHR {
+  border: none;
+  border-top: 2px dotted #fff;
+  width: 100%;
+  margin: 0.2rem 0 0.6rem;
+  opacity: 0.9;
+}
+
+.resultStatText {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* === Small Note === */
+.resultNote {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* === Button === */
+.resultButton {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.9rem 1.6rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  width: fit-content;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.35);
+  transition: all 0.25s ease;
+}
+
+.resultButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* === Right Image Column === */
+.resultRight {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.resultImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* === Responsive === */
+@media (max-width: 1024px) {
+  .resultHeading {
+    font-size: 2rem;
+  }
+
+  .resultStats {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .resultStatBox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .resultSection {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .resultLeft {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .resultHeading {
+    font-size: 1.8rem;
+  }
+
+  .resultRight {
+    height: 240px;
+  }
+}

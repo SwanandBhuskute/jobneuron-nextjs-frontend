@@ -1,0 +1,218 @@
+/* === Container & Layout === */
+.navContainer {
+  width: 100%;
+  background: #FFFFFF;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3.5rem;
+  margin: 0 auto;
+}
+
+/* === Left: Logo === */
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLogoText {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #000;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  padding: 0.2rem 0.4rem;
+}
+
+/* === Center: Links (Desktop) === */
+.navLinks {
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLinkItem {
+  display: flex;
+  align-items: center;
+}
+
+.navLinkText {
+  font-family: "Space Grotesk", sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navLinkText:hover {
+  color: #ff4c00;
+}
+
+/* === Right: CTAs (Desktop) === */
+.navRight {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.navSecondaryButton,
+.navPrimaryButton {
+  border-radius: 0.8rem;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.25s ease;
+  position: relative;
+  border-bottom: 3px solid #ff4c00;
+}
+
+/* Secondary (white) button */
+.navSecondaryButton {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.navSecondaryButton:hover {
+  background-color: #f9f9f9;
+}
+
+/* Primary (black) button */
+.navPrimaryButton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 3px 0px #ff4c00;
+}
+
+.navPrimaryButton:hover {
+  background-color: #222;
+}
+
+/* === Mobile === */
+.navMenuIcon {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconHamburger,
+.iconClose {
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.iconHamburger::before,
+.iconHamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.iconHamburger::before {
+  top: -7px;
+}
+
+.iconHamburger::after {
+  top: 7px;
+}
+
+.iconClose {
+  transform: rotate(45deg);
+}
+
+.iconClose::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(-90deg);
+}
+
+/* === Mobile Menu === */
+.navMobileMenu {
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  padding: 1rem 2rem;
+}
+
+.navMobileLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navMobileLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+.navMobileButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.navMobileSecondary,
+.navMobilePrimary {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navMobileSecondary {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.navMobilePrimary {
+  background-color: #000;
+  color: #fff;
+}
+
+/* === Responsive Rules === */
+@media (max-width: 900px) {
+  .navLinks,
+  .navRight {
+    display: none;
+  }
+
+  .navMenuIcon {
+    display: block;
+  }
+
+  .navMobileMenu {
+    display: flex;
+  }
+}
