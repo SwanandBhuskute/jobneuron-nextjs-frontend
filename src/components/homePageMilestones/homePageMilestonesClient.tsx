@@ -33,7 +33,7 @@ export default function HomePageMilestonesClient() {
   ];
 
   const [activeIndex, setActiveIndex] = useState(1); // start from first real slide
-  const [isTransitioning, setIsTransitioning] = useState(true);
+  const [, setIsTransitioning] = useState(true);
   const trackRef = useRef<HTMLDivElement | null>(null);
 
   // Create cloned array (last → first clones)
@@ -83,8 +83,8 @@ export default function HomePageMilestonesClient() {
             <span className={styles.highlight}>200x</span> Return on Investment
           </h3>
           <p>
-            Clients see 200x ROI with higher salaries, faster offers, and lasting
-            growth.
+            Clients see 200x ROI with higher salaries, faster offers, and
+            lasting growth.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import type { NavLink, NavbarCTA } from "../types/navbar"
+import type { NavLink, NavbarCTA } from "../types/navbarData";
 
 export const navbarLinks: NavLink[] = [
   { name: "Home", href: "/" },

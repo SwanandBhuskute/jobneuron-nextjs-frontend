@@ -1,4 +1,4 @@
-import { HeroSectionData } from "../types/herosection";
+import { HeroSectionData } from "../types/heroSectionData";
 
 export const heroSectionData: HeroSectionData = {
   badges: ["LAND INTERVIEW IN 1 WEEK", "50 USERS LANDED JOB"],
@@ -8,7 +8,8 @@ export const heroSectionData: HeroSectionData = {
     "We apply to 1,200 USA Job applications & track everything while you focus on winning the interview.",
   cta: { label: "Try Flashfire free for 7 Days →", href: "/signup" },
   trustText: "Trusted by 260+ Users",
-  universityHeading: "Trusted by students and graduates from top global universities.",
+  universityHeading:
+    "Trusted by students and graduates from top global universities.",
   universities: [
     "Harvard University",
     "Stanford University",

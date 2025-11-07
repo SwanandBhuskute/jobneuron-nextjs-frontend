@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import styles from "./heroSection.module.css";
-import type { HeroSectionData } from "../../types/herosection";
+import { HeroSectionData } from "@/src/types/heroSectionData";
 
 type Props = {
   data: HeroSectionData;

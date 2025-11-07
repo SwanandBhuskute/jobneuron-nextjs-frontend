@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./navbar.module.css";
-import type { NavLink, NavbarCTA } from "../../types/navbar";
+import type { NavLink, NavbarCTA } from "../../types/navbarData";
 
 type Props = {
   links: NavLink[];
@@ -36,7 +36,10 @@ export default function NavbarClient({ links, ctas }: Props) {
 
         {/* Right Section: CTAs (Desktop) */}
         <div className={styles.navRight}>
-          <Link href={ctas.secondary.href} className={styles.navSecondaryButton}>
+          <Link
+            href={ctas.secondary.href}
+            className={styles.navSecondaryButton}
+          >
             {ctas.secondary.label}
           </Link>
           <Link href={ctas.primary.href} className={styles.navPrimaryButton}>
@@ -50,7 +53,9 @@ export default function NavbarClient({ links, ctas }: Props) {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
-          <div className={isMenuOpen ? styles.iconClose : styles.iconHamburger} />
+          <div
+            className={isMenuOpen ? styles.iconClose : styles.iconHamburger}
+          />
         </button>
       </div>
 
