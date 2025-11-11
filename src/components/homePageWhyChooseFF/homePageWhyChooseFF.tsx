@@ -97,10 +97,11 @@ export default function HomePageWhyChooseFF() {
                   <Image
                     src="/images/flashfire-logo-white.png"
                     alt="Flashfire logo"
-                    width={100}
+                    width={24}
                     height={24}
                   />
                 </div>
+                <p>Flashfire</p>
               </div>
             </div>
 
@@ -108,8 +109,8 @@ export default function HomePageWhyChooseFF() {
               <Image
                 src="/images/adit-jain.png"
                 alt="Adit Jain"
-                width={140}
-                height={140}
+                width={65}
+                height={50}
                 className={styles.profileImage}
               />
             </div>

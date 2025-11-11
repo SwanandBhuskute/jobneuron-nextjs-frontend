@@ -11,6 +11,7 @@ import {
 import posthog from "posthog-js";
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
+import Link from "next/link";
 
 type BlogPost = {
   id: number;
@@ -91,7 +92,6 @@ export default function BlogsPage({ post }: { post: BlogPost }) {
             </span>
           </div>
 
-          {/* === IMAGE === */}
           <div className={styles.imageWrapper}>
             <Image
               src={post.image}
@@ -102,16 +102,13 @@ export default function BlogsPage({ post }: { post: BlogPost }) {
             />
           </div>
 
-          {/* === TITLE === */}
           <h1 className={styles.title}>{post.title}</h1>
 
-          {/* === META === */}
           <div className={styles.meta}>
             <span>📅 {post.date}</span>
             <span>⏱️ {post.readTime}</span>
           </div>
 
-          {/* === CONTENT === */}
           <article
             className={styles.content}
             dangerouslySetInnerHTML={{ __html: post.content }}
@@ -133,9 +130,9 @@ export default function BlogsPage({ post }: { post: BlogPost }) {
               Visit FlashFire Jobs
             </a>
           </div>
-          <button onClick={() => history.back()} className={styles.closeBtn}>
+          <Link href={`/blogs`} className={styles.closeBtn}>
             Close Article
-          </button>
+          </Link>
         </div>
       </div>
       <Footer />

@@ -21,7 +21,11 @@ type Blog = {
 export default function BlogCard({ blog }: { blog: Blog }) {
   return (
     <section className={styles.blogCardOuter}>
-      <Link href={`/blog/${blog.slug}`} className={styles.blogCard}>
+      <Link
+        href={`/blog/${blog.slug}`}
+        target="_blank"
+        className={styles.blogCard}
+      >
         {/* === Image === */}
         <div className={styles.imageWrapper}>
           <Image

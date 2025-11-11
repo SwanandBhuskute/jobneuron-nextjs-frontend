@@ -110,8 +110,7 @@
   border: 1px solid #f1e4df;
   border-radius: 0.8rem;
   padding: 2rem;
-  max-width: 1000px;
-  width: 100%;
+  width: 80rem;
   overflow: hidden;
   position: relative;
 }
@@ -153,30 +152,11 @@
   width: fit-content;
   z-index: 2;
   position: relative;
+  box-shadow: 0 0.2rem 0 #000;
 }
 
 .whatsappButton:hover {
   background-color: #e24300;
-}
-
-.authorImage {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 45%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 0.5rem 0 0 0.5rem;
-  z-index: 1;
-}
-
-.profileImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top center;
-  transform: scale(1.15);
-  filter: brightness(0.95);
 }
 
 .whatsappRight {
@@ -186,14 +166,40 @@
   border-radius: 0.5rem;
   padding: 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   position: relative;
   overflow: hidden;
 }
 
+.testimonial {
+  width: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.authorImage {
+  height: 13rem;
+  right: 1.5rem;
+  padding: 0 5rem;
+  margin-top: -2rem;
+  overflow: hidden;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.7);
+  filter: brightness(0.95);
+  mask-image: linear-gradient(to bottom, black 30%, transparent 80%);
+  -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 80%);
+}
+
 .helpingTag {
-  color: #ff8050;
+  color: #fffaf8;
+  text-align: left;
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
@@ -203,6 +209,7 @@
   font-size: 1.1rem;
   font-weight: 400;
   font-style: italic;
+  text-align: left;
   color: #eee;
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -210,7 +217,8 @@
 
 .author {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -261,8 +269,9 @@
   }
 
   .profileImage {
-    object-position: top center;
-    border-radius: 0.5rem;
+    object-fit: contain;
+    object-position: center;
+    /* border-radius: 0.5rem; */
   }
 
   .whatsappRight {
@@ -298,6 +307,8 @@
 
   .whatsappCard {
     padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .whatsappLeft {
@@ -305,7 +316,24 @@
   }
 
   .authorImage {
-    height: 200px;
+    right: auto;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+    filter: brightness(0.95);
+
+    /* Soft fade at bottom */
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   }
 
   .whatsappRight {

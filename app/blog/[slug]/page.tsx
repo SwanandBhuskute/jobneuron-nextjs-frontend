@@ -14,8 +14,8 @@ type Props = {
 //   }));
 // }
 
-export default function BlogSlugPage({ params }: Props) {
-  const { slug } = params;
+export default async function BlogSlugPage({ params }: Props) {
+  const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) return notFound();
