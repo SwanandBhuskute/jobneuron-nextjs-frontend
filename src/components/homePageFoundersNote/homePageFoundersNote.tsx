@@ -20,7 +20,7 @@ export default function HomePageFoundersNote() {
           </p>
 
           <p>
-            Flashfire was born from that same feeling. I watched my sister—
+            Jobneuron was born from that same feeling. I watched my sister—
             smart, capable, and hardworking—apply to hundreds of roles and still
             get no response. It wasn’t her fault. The system had stopped seeing
             people for who they are.
@@ -38,7 +38,7 @@ export default function HomePageFoundersNote() {
           </p>
 
           <p>
-            Together, we started building Flashfire with belief, empathy, and
+            Together, we started building Jobneuron with belief, empathy, and
             persistence. What began as a way to help one person is now helping
             hundreds find their “yes.”
           </p>

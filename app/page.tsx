@@ -1,5 +1,5 @@
-import FlashFireHome from "../src/components/flashFireHome";
+import JobNeuronHome from "../src/components/jobNeuronHome";
 
 export default function Home() {
-  return <FlashFireHome />;
+  return <JobNeuronHome />;
 }

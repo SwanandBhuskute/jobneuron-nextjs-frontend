@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,11 +26,10 @@ export default function Footer() {
           <div className={styles.linkRow}>
             <h4>QUICK ACCESS</h4>
             <div className={styles.linkItems}>
-              <Link href="#">Features</Link>
-              <Link href="#">Testimonials</Link>
-              <Link href="#">Pricing</Link>
-              <Link href="#">FAQ</Link>
-              <Link href="#">Blog</Link>
+              <Link href="#feature">Features</Link>
+              <Link href="#pricing">Pricing</Link>
+              <Link href="#faq">FAQ</Link>
+              <Link href="#blogs">Blog</Link>
             </div>
           </div>
 
@@ -54,6 +53,14 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </Link>
+              <Link
+                href="https://www.twitter.com/company/JobNeuron-pvt-ltd/"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
               </Link>
               <Link
                 href="https://www.instagram.com/JobNeuron/"

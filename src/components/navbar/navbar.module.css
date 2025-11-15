@@ -57,7 +57,7 @@
 }
 
 .navLinkText:hover {
-  color: #ff004c;
+  color: #f8a100;
 }
 
 /* === Right: CTAs (Desktop) === */
@@ -76,7 +76,7 @@
   text-decoration: none;
   transition: all 0.25s ease;
   position: relative;
-  box-shadow: 0 0.3rem 0 #ff004c;
+  box-shadow: 0 0.3rem 0 #f8a100;
 }
 
 /* Secondary Button */
@@ -200,7 +200,7 @@
 }
 
 .navMobileLink:hover {
-  color: #ff004c;
+  color: #f8a100;
 }
 
 .navMobileButtons {
@@ -229,7 +229,7 @@
 .navMobilePrimary {
   background-color: #000;
   color: #fff;
-  box-shadow: 0 0.2rem 0 #ff004c;
+  box-shadow: 0 0.2rem 0 #f8a100;
 }
 
 /* === Responsive Adjustments === */

@@ -60,7 +60,7 @@
 }
 
 .highlight {
-  color: #ff004c;
+  color: #f8a100;
   font-weight: 600;
 }
 
@@ -68,7 +68,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #ff004c;
+  color: #f8a100;
   font-weight: 600;
 }
 

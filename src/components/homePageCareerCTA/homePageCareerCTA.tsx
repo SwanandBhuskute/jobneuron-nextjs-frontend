@@ -9,38 +9,39 @@ export default function HomePageCareerCTA() {
         {/* === LEFT: Content === */}
         <div className={styles.leftContent}>
           <h2 className={styles.heading}>
-            Just Graduated? Let’s Fire Up Your Career!
+            Starting Your Career? We Help You Stand Out Instantly.
           </h2>
 
           <p className={styles.subtext}>
-            You’ve done your part, now let JobNeuron handle the job hunt. <br />
-            Our AI-powered team gets your profile recruiter-ready and{" "}
+            Getting your first break shouldn’t feel overwhelming.{" "}
             <strong>
-              applies to the right jobs so you can land interviews faster.
+              JobNeuron builds your professional presence, applies to high-fit
+              roles, and boosts your visibility from day one.
             </strong>
           </p>
 
           <ul className={styles.featuresList}>
             <li>
-              <FaBolt className={styles.icon} /> Resume built from scratch &
-              tailored for every job
+              <FaBolt className={styles.icon} /> A recruiter-friendly resume
+              tailored for every application
             </li>
             <li>
-              <FaBolt className={styles.icon} /> LinkedIn optimized for
-              recruiter visibility
+              <FaBolt className={styles.icon} /> LinkedIn makeover that brings
+              you into search results
             </li>
             <li>
-              <FaBolt className={styles.icon} /> AI-backed job targeting for
-              your goals
+              <FaBolt className={styles.icon} /> Smart job targeting based on
+              your background & goals
             </li>
             <li>
-              <FaBolt className={styles.icon} /> Weekly WhatsApp updates
+              <FaBolt className={styles.icon} /> Weekly performance insights +
+              strategy updates
             </li>
           </ul>
 
           <div className={styles.ctaRow}>
             <button className={styles.ctaButton}>
-              Schedule a Free Career Call
+              Book Your Free Career Session
             </button>
             <div className={styles.userNote}>
               <div className={styles.userAvatars}>
@@ -67,8 +68,8 @@ export default function HomePageCareerCTA() {
                 />
               </div>
               <p>
-                Join <span className={styles.highlight}>100+</span> graduates
-                who landed offers at top companies.
+                Trusted by <span className={styles.highlight}>250+</span>{" "}
+                early-career candidates building a strong start.
               </p>
             </div>
           </div>
@@ -78,21 +79,21 @@ export default function HomePageCareerCTA() {
         <div className={styles.rightGrid}>
           <div className={styles.rightGridTop}>
             <div className={styles.statCard}>
-              <p className={styles.statLabel}>SUCCESS RATE</p>
-              <h3 className={styles.statValue}>95%</h3>
+              <p className={styles.statLabel}>INTERVIEW BOOST</p>
+              <h3 className={styles.statValue}>90%</h3>
             </div>
             <div className={styles.statCard}>
-              <p className={styles.statLabel}>JOB LANDED</p>
-              <h3 className={styles.statValue}>50+</h3>
+              <p className={styles.statLabel}>OFFERS SECURED</p>
+              <h3 className={styles.statValue}>60+</h3>
             </div>
           </div>
           <div className={styles.rightGridBottom}>
             <div className={styles.statCard}>
-              <p className={styles.statLabel}>HOURS SAVED</p>
-              <h3 className={styles.statValue}>150+</h3>
+              <p className={styles.statLabel}>TIME SAVED</p>
+              <h3 className={styles.statValue}>120+</h3>
             </div>
             <div className={styles.statCard}>
-              <p className={styles.statLabel}>SUPPORT</p>
+              <p className={styles.statLabel}>ON-DEMAND SUPPORT</p>
               <h3 className={styles.statValue}>24/7</h3>
             </div>
           </div>

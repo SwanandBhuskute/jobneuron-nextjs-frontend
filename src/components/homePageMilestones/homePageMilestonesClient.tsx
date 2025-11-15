@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { SiNetflix, SiTesla } from "react-icons/si";
 import { RiTwitterXLine } from "react-icons/ri";
+import Image from "next/image";
 
 export default function HomePageMilestonesClient() {
   const footerCompanies = [
@@ -29,30 +30,53 @@ export default function HomePageMilestonesClient() {
       text: "JobNeuron guided me through my entire application process — I landed interviews at Google and Meta within 10 days!",
       user: "Arjun Sharma",
       role: "SWE Intern",
+      image: "/images/user1.jpg",
     },
     {
       company: "Amazon",
       text: "The resume booster and job tracker saved me hours daily. Got an Amazon offer in just 3 weeks!",
       user: "Sophia Patel",
       role: "Software Engineer",
+      image: "/images/user2.jpg",
     },
     {
       company: "Microsoft",
       text: "From job search chaos to clarity — I received 4 interview calls in my first week using JobNeuron!",
       user: "Ravi Kumar",
       role: "Full Stack Developer",
+      image: "/images/user3.jpg",
     },
     {
       company: "Netflix",
       text: "Loved how the AI personalizes my applications — landed at Netflix as a Product Analyst!",
       user: "Nisha Jain",
       role: "Product Analyst",
+      image: "/images/user1.jpg",
     },
     {
       company: "Tesla",
       text: "JobNeuron made everything structured and automated — helped me secure Tesla interviews easily!",
       user: "Karan Mehta",
       role: "Mechanical Engineer",
+      image: "/images/user2.jpg",
+    },
+  ];
+
+  const stats = [
+    {
+      icon: "⚡",
+      value: "92%",
+      label: "Users saw improved interview frequency within 15 days",
+    },
+    {
+      icon: "📚",
+      value: "180k+",
+      label: "AI-personalized job applications optimized",
+    },
+    {
+      icon: "🎧",
+      value: "24/7",
+      label: "AI job assistant available anytime you need support",
     },
   ];
 
@@ -74,7 +98,14 @@ export default function HomePageMilestonesClient() {
                 </div>
                 <p className={styles.testimonialText}>{t.text}</p>
                 <div className={styles.userInfo}>
-                  <div className={styles.userAvatar}></div>
+                  <div className={styles.userAvatar}>
+                    <Image
+                      src={t.image}
+                      alt={t.user}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
                   <div>
                     <p className={styles.userName}>{t.user}</p>
                     <p className={styles.userCompany}>{t.role}</p>
@@ -87,7 +118,7 @@ export default function HomePageMilestonesClient() {
       </div>
 
       {/* === Top Stats Cards === */}
-      <div className={styles.statsContainer}>
+      {/* <div className={styles.statsContainer}>
         <div className={styles.statCard}>
           <div className={styles.iconPlaceholder}>💼</div>
           <h3>
@@ -122,6 +153,17 @@ export default function HomePageMilestonesClient() {
             days of usage.
           </p>
         </div>
+      </div> */}
+      <div className={styles.statsContainer}>
+        {stats.map((s, i) => (
+          <div key={i} className={styles.statCard}>
+            <div className={styles.iconPlaceholder}>{s.icon}</div>
+            <h3>
+              <span className={styles.highlight}>{s.value}</span>
+            </h3>
+            <p>{s.label}</p>
+          </div>
+        ))}
       </div>
 
       {/* === Footer Logos === */}

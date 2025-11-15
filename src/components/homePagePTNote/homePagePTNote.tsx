@@ -23,14 +23,14 @@ export default function HomePagePTNote() {
             <p className={styles.pipe}>|</p>
             <div className={styles.brandLogo}>
               <Image
-                src="/images/flashfire-logo-white.png"
-                alt="Flashfire Logo"
+                src="/images/jobneuron-logo-white.png"
+                alt="Jobneuron Logo"
                 width={20}
                 height={20}
                 className={styles.brandLogoImg}
               />
             </div>
-            <div className={styles.brandLogoText}>Flashfire</div>
+            <div className={styles.brandLogoText}>Jobneuron</div>
           </div>
 
           <div className={styles.authorImage}>

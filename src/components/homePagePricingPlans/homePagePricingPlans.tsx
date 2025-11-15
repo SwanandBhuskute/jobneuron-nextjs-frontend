@@ -5,63 +5,63 @@ export default function HomePagePricingPlans() {
   return (
     <section id="pricing" className={styles.pricingSection}>
       <div className={styles.header}>
-        <h2>Choose Your Career Acceleration Plan</h2>
+        <h2>Find the Plan That Matches Your Ambition</h2>
         <p>
-          All plans include our AI-powered job matching and application
-          automation.
-          <strong> Save 150+ hours monthly</strong> while we work for you 24/7.
+          Every plan includes AI-driven role discovery, personalized resume
+          alignment, and automated application delivery —
+          <strong> saving you 100+ hours every month.</strong>
         </p>
       </div>
 
       <div className={styles.cardsContainer}>
         <PricingCard
-          title="IGNITE"
+          title="LAUNCH"
           subTitle="250 Applications"
-          description="Perfect for entry-level professionals"
-          price="$199"
-          oldPrice="$299"
+          description="Great for fresh graduates & early-career professionals"
+          price="$99"
+          oldPrice="$199"
           features={[
-            "No Time Constraint",
-            "AI-powered job matching",
-            "Resume Optimization",
-            "Basic Analytical Dashboard",
+            "Flexible pace of application delivery",
+            "AI-screened role recommendations",
+            "ATS-compliant resume refinement",
+            "Starter insights dashboard",
           ]}
           addOn={true}
           highlight={false}
         />
 
         <PricingCard
-          title="PROFESSIONAL"
-          tag="ECONOMICAL"
+          title="ACCELERATOR"
+          tag="BEST VALUE"
           subTitle="500 Applications"
-          description="Most popular for mid-level professionals"
-          price="$349"
-          oldPrice="$449"
+          description="Ideal for professionals transitioning or leveling up"
+          price="$249"
+          oldPrice="$349"
           features={[
-            "Everything in Ignite",
-            "Priority job matching",
-            "Advance analytics & insights",
-            "LinkedIn profile optimization",
-            "Interview preparation tips",
+            "Everything in Launch",
+            "Priority-weighted job targeting",
+            "Growth analytics & progress tracking",
+            "LinkedIn profile enhancement",
+            "Role-specific prep guides",
           ]}
           addOn={true}
           highlight={false}
         />
 
         <PricingCard
-          title="EXECUTIVE"
+          title="VELOCITY"
           tag="MOST POPULAR"
           subTitle="1200 Applications"
-          description="For senior professionals & executive"
-          price="$599"
-          oldPrice="$699"
+          description="Perfect for senior, specialized, or leadership roles"
+          price="$499"
+          oldPrice="$599"
           features={[
-            "Everything in Professional",
-            "Executive-level job targeting",
-            "Portfolio development",
-            "Cover Letters",
-            "Network introduction requests",
-            "Emailing Recruiters",
+            "Everything in Accelerator",
+            "Executive-level opportunity targeting",
+            "Portfolio & project presentation revamp",
+            "Custom cover letter creation",
+            "Direct recruiter outreach support",
+            "Personalized communication templates",
           ]}
           addOn={true}
           highlight={true}
@@ -71,19 +71,20 @@ export default function HomePagePricingPlans() {
       {/* === Risk-Free Section === */}
       <div className={styles.guaranteeBox}>
         <div className={styles.guaranteeText}>
-          <h3>100% Risk Free</h3>
+          <h3>A Completely Safe Investment</h3>
           <p>
-            If you didn’t land interviews, we’ll send{" "}
+            If your interview response rate doesn’t improve, we’ll send{" "}
             <span className={styles.highlight}>
-              150–200 more applications, free of charge.
+              an additional 150–200 targeted applications at no cost.
             </span>{" "}
             <br />
-            Because at Jobneuron, you only pay for progress.
+            Because JobNeuron believes in measurable outcomes — not empty
+            promises.
           </p>
         </div>
         <div className={styles.guaranteeLogo}>
           <span className={styles.guaranteeIcon}>🔥</span>
-          <p>Jobneuron Guarantee</p>
+          <p>JobNeuron Assurance</p>
         </div>
       </div>
     </section>

@@ -1,32 +1,42 @@
 export const questionsData = [
   {
-    question: "How is Jobneuron priced and are there any hidden charges?",
+    question: "How does JobNeuron’s pricing work?",
     answer:
-      "You pay once upfront for the plan you choose. There are no hidden fees. Everything in your plan (resume optimization, job applications, LinkedIn help, and interview support) is included.",
+      "Each plan is a one-time payment that covers the complete service — resume upgrades, personalized job matching, and application automation. There are no recurring or hidden charges.",
   },
   {
-    question: "Can I upgrade or switch plans later?",
+    question: "Can I switch to a different plan after starting?",
     answer:
-      "Yes! You can easily upgrade to a higher plan anytime. We’ll only charge you the difference in pricing — nothing extra.",
+      "Yes, you can upgrade at any time. You’ll only pay the difference between your current plan and the new one. Your progress and data remain fully intact.",
   },
   {
-    question: "What if I don’t get any interviews?",
+    question: "What if I still don’t receive interview calls?",
     answer:
-      "We offer a 100% risk-free policy. If you don’t land interviews, we’ll send 150–200 more applications completely free of charge.",
+      "We’ve built a performance-first system. If you don’t see interview momentum, our team sends an additional 150–200 targeted applications at no extra cost.",
   },
   {
-    question: "Do you apply for jobs manually or via bots?",
+    question: "Are applications sent manually or automated?",
     answer:
-      "We use a mix of human research and AI precision. Every application is manually verified to ensure it matches your goals and profile.",
+      "We use AI-assisted role discovery, but every application is reviewed and customized by a human expert to ensure accuracy and role relevance.",
   },
   {
-    question: "Will I get updates about my job applications?",
+    question: "How often will I receive updates about my applications?",
     answer:
-      "Absolutely! You’ll get regular WhatsApp updates from our team on the progress of your job search and interview opportunities.",
+      "You’ll receive consistent updates through WhatsApp and your dashboard, including applications sent, recruiter responses, and performance insights.",
   },
   {
-    question: "Is my data safe with Jobneuron?",
+    question: "Is my personal information secure?",
     answer:
-      "Yes, your data is 100% private and encrypted. We never share your resume, contact details, or credentials with any third party.",
+      "Absolutely. Your resume, credentials, and job preferences are stored securely using industry-standard encryption. We never share your data externally.",
+  },
+  {
+    question: "Do you work with candidates outside the U.S.?",
+    answer:
+      "Yes! We help international applicants target U.S. and global roles. JobNeuron adapts your resume and applications based on location-specific hiring patterns.",
+  },
+  {
+    question: "Do I need to prepare anything before starting?",
+    answer:
+      "Just share your existing resume and job goals. Our team handles everything else — from rewriting your profile to applying for roles that match your career direction.",
   },
 ];

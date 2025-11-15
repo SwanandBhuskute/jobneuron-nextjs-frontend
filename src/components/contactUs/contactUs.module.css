@@ -34,7 +34,7 @@
 }
 
 .brand {
-  color: #ff004c;
+  color: #f8a100;
 }
 
 .textOverlay p {
@@ -126,7 +126,7 @@
 .form input:focus,
 .form select:focus,
 .form textarea:focus {
-  border-color: #ff004c;
+  border-color: #f8a100;
 }
 
 /* === SUBMIT BUTTON === */
@@ -146,12 +146,12 @@
   border-radius: 0.4rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 0.3rem 0 #ff004c;
+  box-shadow: 0 0.3rem 0 #f8a100;
 }
 
 .submitButton:hover {
   transform: translateY(-0.1rem);
-  box-shadow: 0 0.4rem 0 #ff004c;
+  box-shadow: 0 0.4rem 0 #f8a100;
 }
 
 /* === RESPONSIVE === */

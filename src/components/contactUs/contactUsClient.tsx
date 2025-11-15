@@ -11,18 +11,18 @@ export default function ContactUsClient() {
       <div className={styles.leftPanel}>
         <Image
           src="/images/partnerWithFF.jpg"
-          alt="Partner with Flashfire"
+          alt="Partner with Jobneuron"
           fill
           className={styles.image}
           priority
         />
         <div className={styles.textOverlay}>
           <h2>
-            Partner with <span className={styles.brand}>Flashfire</span> to Find
+            Partner with <span className={styles.brand}>Jobneuron</span> to Find
             Top Talent, Fast.
           </h2>
           <p>
-            Flashfire’s AI platform helps you discover, screen, and hire the
+            Jobneuron’s AI platform helps you discover, screen, and hire the
             best talent with <em>speed and precision.</em>
           </p>
         </div>

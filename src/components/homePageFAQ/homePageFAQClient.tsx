@@ -16,10 +16,10 @@ export default function HomePageFAQClient() {
   return (
     <section id="faq" className={styles.faqSection}>
       <div className={styles.header}>
-        <h2>Question? We Got You Answers.</h2>
+        <h2>Your Questions, Answered Clearly.</h2>
         <p>
-          We get it, AI job search can sound complex. Here’s everything
-          explained, plain and simple.
+          Job search can feel overwhelming - so we made this FAQ simple, honest,
+          and to-the-point.
         </p>
       </div>
 
@@ -54,32 +54,32 @@ export default function HomePageFAQClient() {
       <div className={styles.demoSectionOuter}>
         <div className={styles.demoSection}>
           <h5 className={styles.demoSubheading}>
-            GOT FURTHER QUESTIONS? LET’S TALK!
+            STILL UNSURE? WE’RE HERE TO HELP.
           </h5>
 
           <h2 className={styles.demoHeading}>
             BOOK A DEMO{" "}
             <span className={styles.fireIcon}>
               <Image
-                src="/images/flashfire-logo-white.png"
+                src="/images/jobneuron-logo-white.png"
                 alt="JobNeuron logo"
-                width={32}
-                height={32}
+                width={45}
+                height={45}
               />
             </span>{" "}
             CALL
           </h2>
 
           <p className={styles.demoText}>
-            We get it, <em>finding the right job isn’t easy.</em> Book a quick
-            chat with our founder and see how JobNeuron can help you land
-            interviews faster.
+            Let’s walk you through how JobNeuron works, how we tailor your
+            applications, and how we help candidates land interviews faster than
+            traditional job hunting.
           </p>
 
-          <button className={styles.demoButton}>Book My Demo Call →</button>
+          <button className={styles.demoButton}>Schedule My Demo →</button>
 
           <p className={styles.demoNote}>
-            Limited slots available. Book your call now!
+            Calls fill quickly — secure your slot while it’s available.
           </p>
         </div>
       </div>

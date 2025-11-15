@@ -1,15 +1,15 @@
 import { HeroSectionData } from "../types/heroSectionData";
 
 export const heroSectionData: HeroSectionData = {
-  badges: ["LAND INTERVIEW IN 1 WEEK", "50 USERS LANDED JOB"],
-  headlineMain: "Land 15+ Interview Calls with",
+  badges: ["AI-POWERED JOB HUNT", "92% USERS GET INTERVIEWS"],
+  headlineMain: "Make Your Job Search Easier With",
   headlineHighlight: "Jobneuron AI Copilot",
   description:
-    "We apply to 1,200 USA job applications & track everything while you focus on winning the interview.",
+    "Jobneuron handles tailored job applications, resume alignment, and recruiter-facing optimization — ensuring your profile reaches the right companies, faster.",
   cta: { label: "Try Jobneuron free for 7 Days →", href: "/" },
-  trustText: "Trusted by 260+ Users",
+  trustText: "Rated 4.9/5 by job seekers transitioning into U.S. roles",
   universityHeading:
-    "Trusted by students and graduates from top global universities.",
+    "TrusteTrusted by candidates from top-ranked global institutions.",
   universities: [
     { name: "Harvard University", domain: "harvard.edu" },
     { name: "Stanford University", domain: "stanford.edu" },
