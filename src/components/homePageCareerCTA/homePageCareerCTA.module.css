@@ -56,7 +56,7 @@
 }
 
 .icon {
-  color: #ff4c00;
+  color: #ff004c;
   margin-right: 0.6rem;
   font-size: 1rem;
 }
@@ -70,7 +70,7 @@
 }
 
 .ctaButton {
-  background-color: #ff4c00;
+  background-color: #ff004c;
   color: #fff;
   border: none;
   padding: 1rem 1.5rem;
@@ -116,7 +116,7 @@
 }
 
 .highlight {
-  color: #ff4c00;
+  color: #ff004c;
   font-weight: 600;
 }
 

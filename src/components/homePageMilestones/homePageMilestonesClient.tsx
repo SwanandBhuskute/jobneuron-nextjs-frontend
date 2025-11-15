@@ -26,7 +26,7 @@ export default function HomePageMilestonesClient() {
   const testimonials = [
     {
       company: "Google",
-      text: "Flashfire guided me through my entire application process — I landed interviews at Google and Meta within 10 days!",
+      text: "JobNeuron guided me through my entire application process — I landed interviews at Google and Meta within 10 days!",
       user: "Arjun Sharma",
       role: "SWE Intern",
     },
@@ -38,7 +38,7 @@ export default function HomePageMilestonesClient() {
     },
     {
       company: "Microsoft",
-      text: "From job search chaos to clarity — I received 4 interview calls in my first week using Flashfire!",
+      text: "From job search chaos to clarity — I received 4 interview calls in my first week using JobNeuron!",
       user: "Ravi Kumar",
       role: "Full Stack Developer",
     },
@@ -50,7 +50,7 @@ export default function HomePageMilestonesClient() {
     },
     {
       company: "Tesla",
-      text: "Flashfire made everything structured and automated — helped me secure Tesla interviews easily!",
+      text: "JobNeuron made everything structured and automated — helped me secure Tesla interviews easily!",
       user: "Karan Mehta",
       role: "Mechanical Engineer",
     },
@@ -118,7 +118,7 @@ export default function HomePageMilestonesClient() {
             Interview
           </h3>
           <p>
-            Flashfire users report getting interview calls within their first 7
+            JobNeuron users report getting interview calls within their first 7
             days of usage.
           </p>
         </div>

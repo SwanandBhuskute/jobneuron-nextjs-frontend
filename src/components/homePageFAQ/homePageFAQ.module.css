@@ -69,7 +69,7 @@
 
 .icon {
   font-size: 0.9rem;
-  color: #ff4c00;
+  color: #ff004c;
 }
 
 .faqAnswer {
@@ -93,12 +93,12 @@
 
 /* === ACTIVE STATE === */
 .active {
-  border-left: 0.2rem solid #ff4c00;
+  border-left: 0.2rem solid #ff004c;
   background-color: #fff7f3;
 }
 
 .active .faqQuestion {
-  color: #ff4c00;
+  color: #ff004c;
 }
 
 /* === DEMO SECTION === */
@@ -111,7 +111,7 @@
 }
 
 .demoSection {
-  background-color: #ff4c00;
+  background-color: #ff004c;
   color: #fff;
   text-align: center;
   border-radius: 0.2rem;

@@ -45,7 +45,7 @@
 .tag {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #ff4c00;
+  color: #ff004c;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -81,7 +81,7 @@
 }
 
 .icon {
-  color: #ff4c00;
+  color: #ff004c;
   margin-right: 0.3rem;
   vertical-align: middle;
   font-size: 0.8rem;

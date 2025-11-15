@@ -18,7 +18,7 @@ export default function HomePageSteps() {
           We turn your endless job hunt into a smooth, automated path to
           interview calls.{" "}
           <span className={styles.highlight}>
-            You set the goal, Flashfire takes care of the journey.
+            You set the goal, JobNeuron takes care of the journey.
           </span>
         </p>
       </div>
@@ -64,7 +64,7 @@ export default function HomePageSteps() {
           <div className={styles.stepText}>
             <h3 className={styles.stepNumber}>\\ STEP 3</h3>
             <h4 className={styles.stepHeading}>
-              Flashfire AI applies for you.
+              Jobneuron AI applies for you.
             </h4>
             <p className={styles.stepDescription}>
               We apply to 1000+ curated roles for you, based on your goals and

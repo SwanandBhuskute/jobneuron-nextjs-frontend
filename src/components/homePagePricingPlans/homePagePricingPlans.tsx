@@ -78,12 +78,12 @@ export default function HomePagePricingPlans() {
               150–200 more applications, free of charge.
             </span>{" "}
             <br />
-            Because at Flashfire, you only pay for progress.
+            Because at Jobneuron, you only pay for progress.
           </p>
         </div>
         <div className={styles.guaranteeLogo}>
           <span className={styles.guaranteeIcon}>🔥</span>
-          <p>Flashfire Guarantee</p>
+          <p>Jobneuron Guarantee</p>
         </div>
       </div>
     </section>

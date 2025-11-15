@@ -43,10 +43,6 @@ export default function BlogCard({ blog }: { blog: Blog }) {
             {blog.category.toUpperCase()}
           </p>
 
-          <h3 className={styles.title}>{blog.title}</h3>
-
-          <p className={styles.excerpt}>{blog.excerpt}</p>
-
           <div className={styles.meta}>
             <span>
               <div className={styles.metaSpanDiv}>
@@ -61,6 +57,10 @@ export default function BlogCard({ blog }: { blog: Blog }) {
               </div>
             </span>
           </div>
+
+          <h3 className={styles.title}>{blog.title}</h3>
+
+          <p className={styles.excerpt}>{blog.excerpt}</p>
         </div>
       </Link>
     </section>

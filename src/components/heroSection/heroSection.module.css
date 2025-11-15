@@ -17,7 +17,7 @@
 
 .heroBadgeItem {
   border: 1px solid #000;
-  color: #ff4c00;
+  color: #ff004c;
   font-size: 0.9rem;
   font-weight: 600;
   padding: 0.4rem 0.8rem;
@@ -36,7 +36,7 @@
 }
 
 .heroHighlight {
-  color: #ff4c00;
+  color: #ff004c;
 }
 
 /* === Description === */
@@ -58,7 +58,7 @@
   font-weight: 600;
   text-decoration: none;
   margin-bottom: 1.5rem;
-  box-shadow: 0 3px 0 #ff4c00;
+  box-shadow: 0 3px 0 #ff004c;
   transition: all 0.3s ease;
 }
 

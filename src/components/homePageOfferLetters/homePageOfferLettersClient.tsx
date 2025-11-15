@@ -23,7 +23,7 @@ export default function HomePageOfferLettersClient() {
 
   return (
     <section className={styles.offerSection}>
-      <h2 className={styles.offerHeading}>25+ Offer Letter Received</h2>
+      <h2 className={styles.offerHeading}>500+ students got offer letters</h2>
 
       <div className={styles.offerMarqueeWrapper}>
         <div ref={marqueeRef} className={styles.offerMarquee}>
@@ -32,7 +32,7 @@ export default function HomePageOfferLettersClient() {
               {/* Replace this block image later */}
               <div className={styles.imagePlaceholder}>
                 <Image
-                  src="/images/offer-placeholder.jpg"
+                  src="/images/heroResultImage.png"
                   alt={`Offer Letter ${i}`}
                   width={300}
                   height={400}
@@ -45,11 +45,11 @@ export default function HomePageOfferLettersClient() {
                 <div className={styles.profileInfo}>
                   <div className={styles.avatar}></div>
                   <div>
-                    <p className={styles.name}>Vaishnavi Vaish</p>
-                    <p className={styles.company}>Microsoft</p>
+                    <p className={styles.name}>Robert Dwayne</p>
+                    <p className={styles.company}>Blackrock</p>
                   </div>
                 </div>
-                <div className={styles.linkedinIcon}>in</div>
+                <div className={styles.linkedinIcon}>GH</div>
               </div>
             </div>
           ))}
@@ -59,7 +59,7 @@ export default function HomePageOfferLettersClient() {
             <div key={`dup-${i}`} className={styles.offerCard}>
               <div className={styles.imagePlaceholder}>
                 <Image
-                  src="/images/offer-placeholder.jpg"
+                  src="/images/heroResultImage.png"
                   alt={`Offer Letter ${i}`}
                   width={300}
                   height={400}
@@ -71,8 +71,8 @@ export default function HomePageOfferLettersClient() {
                 <div className={styles.profileInfo}>
                   <div className={styles.avatar}></div>
                   <div>
-                    <p className={styles.name}>Vaishnavi Vaish</p>
-                    <p className={styles.company}>Microsoft</p>
+                    <p className={styles.name}>Robert Dwayne</p>
+                    <p className={styles.company}>Blackrock</p>
                   </div>
                 </div>
                 <div className={styles.linkedinIcon}>in</div>

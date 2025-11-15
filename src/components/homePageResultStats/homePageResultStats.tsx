@@ -7,7 +7,7 @@ export default function HomePageResultStats() {
       {/* Right Side (Image first in HTML so it appears on top on mobile) */}
       <div className={styles.resultRight}>
         <Image
-          src="/images/heroResultImage.jpg"
+          src="/images/heroResultImage.png"
           alt="Interview illustration"
           className={styles.resultImage}
           width={700}

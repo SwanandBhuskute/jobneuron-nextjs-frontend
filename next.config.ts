@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.flashfirejobs.com",
+        hostname: "images.unsplash.com",
       },
     ],
   },

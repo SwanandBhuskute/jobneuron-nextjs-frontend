@@ -17,7 +17,7 @@
 }
 
 .highlightCard {
-  border: 2px solid #ff4c00;
+  border: 2px solid #ff004c;
 }
 
 .tag {
@@ -37,11 +37,11 @@
 }
 
 .tag[data-tag-type="popular"] {
-  background: #ff4c00;
+  background: #ff004c;
 }
 
 .planTitle {
-  color: #ff4c00;
+  color: #ff004c;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.3rem;
@@ -81,7 +81,7 @@
 }
 
 .icon {
-  color: #ff4c00;
+  color: #ff004c;
   font-size: 1rem;
 }
 

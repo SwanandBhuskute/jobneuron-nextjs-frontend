@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FLASHFIRE",
+  title: "JobNeuron",
   description: "AI-Powered Job Search Automation | Land Your Dream Job Faster",
 };
 

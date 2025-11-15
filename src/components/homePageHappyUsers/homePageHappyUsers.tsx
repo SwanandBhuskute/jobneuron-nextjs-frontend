@@ -7,20 +7,20 @@ import styles from "./homePageHappyUsers.module.css";
 export default function HomePageHappyUsers() {
   const videos = [
     {
-      src: "/videos/anjali-shah-ff-review.mp4",
-      name: "Anjali Shah",
-      company: "Skyworks Solutions, Inc.",
+      src: "https://www.w3schools.com/html/mov_bbb.mp4",
+      name: "John Doe",
+      company: "Amazon",
       tilt: "-1deg",
     },
     {
-      src: "/videos/rijul-jain-ff-review.mp4",
-      name: "Rijul Jain",
-      company: "Wise",
+      src: "https://www.w3schools.com/html/mov_bbb.mp4",
+      name: "Danny Bishop",
+      company: "Google",
       tilt: "2deg",
     },
     {
-      src: "/videos/aryan-gupta-ff-review.mp4",
-      name: "Aryan Gupta",
+      src: "https://www.w3schools.com/html/mov_bbb.mp4",
+      name: "Richie Rich",
       company: "IBM",
       tilt: "-2deg",
     },
@@ -50,7 +50,7 @@ export default function HomePageHappyUsers() {
             <div key={i} className={styles.masonryItem}>
               <Image
                 src="/images/blogImg.jpg"
-                alt="Flashfire user review"
+                alt="Jobneuron user review"
                 width={400}
                 height={300}
                 className={styles.reviewImage}

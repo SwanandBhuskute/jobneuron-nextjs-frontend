@@ -3,7 +3,7 @@ import { FaBullseye, FaTrophy, FaRocket, FaHandshake } from "react-icons/fa";
 export const stepsData = {
   heading: "From searching to interviewing, just 4 simple steps.",
   subheading:
-    "We turn your endless job hunt into a smooth, automated path to interview calls. You set the goal, Flashfire takes care of the journey.",
+    "We turn your endless job hunt into a smooth, automated path to interview calls. You set the goal, JobNeuron takes care of the journey.",
   steps: [
     {
       id: 1,
@@ -24,7 +24,7 @@ export const stepsData = {
     {
       id: 3,
       title: "\\ STEP 3",
-      subtitle: "Flashfire AI applies for you.",
+      subtitle: "Jobneuron AI applies for you.",
       description:
         "We apply to 1000+ curated roles for you, based on your goals and visa needs. No spam, no mass blasts — only smart, targeted applications.",
       icon: FaRocket,

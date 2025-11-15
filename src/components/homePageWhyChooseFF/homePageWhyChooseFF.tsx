@@ -1,15 +1,15 @@
 import styles from "./homePageWhyChooseFF.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function HomePageWhyChooseFF() {
   return (
     <section id="feature" className={styles.whySection}>
       {/* === Header === */}
       <header className={styles.header}>
-        <h2 className={styles.title}>Why Choose Flashfire?</h2>
+        <h2 className={styles.title}>Why Choose Jobneuron?</h2>
         <p className={styles.subtitle}>
           We don’t just apply, we <strong>make you get noticed.</strong>{" "}
-          Flashfire combines{" "}
+          Jobneuron combines{" "}
           <span className={styles.highlightAI}>AI precision</span> with{" "}
           <span className={styles.highlightHuman}>human insight</span> to get
           you interviews that actually convert.
@@ -71,7 +71,7 @@ export default function HomePageWhyChooseFF() {
       </div>
 
       {/* === Bottom Section === */}
-      <footer className={styles.bottomSection}>
+      {/* <footer className={styles.bottomSection}>
         <div className={styles.whatsappCard}>
           <div className={styles.whatsappLeft}>
             <h3>Still Confused?</h3>
@@ -85,7 +85,7 @@ export default function HomePageWhyChooseFF() {
             <div className={styles.testimonial}>
               <p className={styles.helpingTag}>HELPING 100+ JOB SEEKERS</p>
               <blockquote className={styles.quote}>
-                “I’ve seen brilliant people lose hope. Flashfire exists so they
+                “I’ve seen brilliant people lose hope. Jobneuron exists so they
                 don’t have to.”
               </blockquote>
               <div className={styles.author}>
@@ -95,13 +95,13 @@ export default function HomePageWhyChooseFF() {
                 </div>
                 <div className={styles.logoWrapper}>
                   <Image
-                    src="/images/flashfire-logo-white.png"
-                    alt="Flashfire logo"
+                    src="/images/Jobneuron-logo-white.png"
+                    alt="Jobneuron logo"
                     width={24}
                     height={24}
                   />
                 </div>
-                <p>Flashfire</p>
+                <p>Jobneuron</p>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ export default function HomePageWhyChooseFF() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </section>
   );
 }

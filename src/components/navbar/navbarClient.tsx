@@ -19,7 +19,7 @@ export default function NavbarClient({ links, ctas }: Props) {
         {/* Left Section: Logo */}
         <div className={styles.navLeft}>
           <Link href="/" className={styles.navLogoText}>
-            FLASHFIRE
+            JOBNEURON
           </Link>
         </div>
 

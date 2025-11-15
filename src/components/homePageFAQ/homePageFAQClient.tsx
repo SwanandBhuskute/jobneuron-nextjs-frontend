@@ -62,7 +62,7 @@ export default function HomePageFAQClient() {
             <span className={styles.fireIcon}>
               <Image
                 src="/images/flashfire-logo-white.png"
-                alt="Flashfire logo"
+                alt="JobNeuron logo"
                 width={32}
                 height={32}
               />
@@ -72,7 +72,7 @@ export default function HomePageFAQClient() {
 
           <p className={styles.demoText}>
             We get it, <em>finding the right job isn’t easy.</em> Book a quick
-            chat with our founder and see how Flashfire can help you land
+            chat with our founder and see how JobNeuron can help you land
             interviews faster.
           </p>
 

@@ -12,12 +12,12 @@ export default function Footer() {
         <div className={styles.logoSection}>
           <div className={styles.logoWrapper}>
             <Image
-              src="/images/flashfire-logo-white.png"
-              alt="Flashfire Logo"
+              src="/images/jobneuron-logo-white.png"
+              alt="JobNeuron Logo"
               width={40}
               height={40}
             />
-            <span className={styles.logoText}>FLASHFIRE</span>
+            <span className={styles.logoText}>JobNeuron</span>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
             <h4>FOLLOW US</h4>
             <div className={styles.socialIcons}>
               <Link
-                href="https://www.linkedin.com/company/flashfire-pvt-ltd/"
+                href="https://www.linkedin.com/company/JobNeuron-pvt-ltd/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function Footer() {
                 <FaLinkedinIn />
               </Link>
               <Link
-                href="https://www.instagram.com/flashfirejobs/"
+                href="https://www.instagram.com/JobNeuron/"
                 aria-label="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,9 +71,9 @@ export default function Footer() {
       {/* === Bottom Section === */}
       <div className={styles.footerBottom}>
         <p className={styles.copyText}>
-          @ Flashfire 2025 | All Rights Reserved
+          @ JobNeuron 2025 | All Rights Reserved
         </p>
-        <p className={styles.companyText}>Flashfire Pvt. Ltd.</p>
+        <p className={styles.companyText}>JobNeuron Pvt. Ltd.</p>
       </div>
     </footer>
   );

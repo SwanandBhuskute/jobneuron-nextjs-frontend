@@ -1,6 +1,6 @@
 export const questionsData = [
   {
-    question: "How is Flashfire priced and are there any hidden charges?",
+    question: "How is Jobneuron priced and are there any hidden charges?",
     answer:
       "You pay once upfront for the plan you choose. There are no hidden fees. Everything in your plan (resume optimization, job applications, LinkedIn help, and interview support) is included.",
   },
@@ -25,7 +25,7 @@ export const questionsData = [
       "Absolutely! You’ll get regular WhatsApp updates from our team on the progress of your job search and interview opportunities.",
   },
   {
-    question: "Is my data safe with Flashfire?",
+    question: "Is my data safe with Jobneuron?",
     answer:
       "Yes, your data is 100% private and encrypted. We never share your resume, contact details, or credentials with any third party.",
   },

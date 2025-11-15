@@ -20,7 +20,5 @@ export default async function BlogSlugPage({ params }: Props) {
 
   if (!post) return notFound();
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  //@ts-expect-error
   return <BlogsPage post={post} />;
 }

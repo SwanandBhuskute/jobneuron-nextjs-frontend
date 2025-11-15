@@ -79,7 +79,7 @@ export default function BlogsPage({ post }: { post: BlogPost }) {
         <div className={styles.blogContainer}>
           {/* === HEADER BAND === */}
           <div className={styles.headerBand}>
-            <h2 className={styles.brand}>FLASHFIRE</h2>
+            <h2 className={styles.brand}>JOBNEURON</h2>
             <p className={styles.subBrand}>
               Your AI-Powered Job Search Platform
             </p>
@@ -114,22 +114,6 @@ export default function BlogsPage({ post }: { post: BlogPost }) {
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          {/* === CTA === */}
-          <div className={styles.ctaBox}>
-            <h3>Ready to accelerate your job search?</h3>
-            <p>
-              Join thousands of international students landing their dream jobs
-              in the U.S.
-            </p>
-            <a
-              href="https://www.flashfirejobs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.ctaButton}
-            >
-              Visit FlashFire Jobs
-            </a>
-          </div>
           <Link href={`/blogs`} className={styles.closeBtn}>
             Close Article
           </Link>

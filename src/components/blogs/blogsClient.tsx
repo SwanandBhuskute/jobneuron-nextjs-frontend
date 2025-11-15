@@ -12,7 +12,7 @@ export default function BlogsClient() {
         <p>
           Learn how to outsmart hiring systems, stand out to recruiters, and
           stay ahead with{" "}
-          <span className={styles.highlight}>Flashfire’s expert-backed</span>{" "}
+          <span className={styles.highlight}>JobNeuron’s expert-backed</span>{" "}
           tips.
         </p>
       </header>

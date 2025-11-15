@@ -134,7 +134,7 @@
 
 .whatsappButton {
   width: fit-content;
-  background-color: #ff4c00;
+  background-color: #ff004c;
   color: #fff;
   border: none;
   padding: 0.9rem 1.6rem;
@@ -166,7 +166,7 @@
   right: 1rem;
   font-size: 8rem;
   opacity: 0.05;
-  color: #ff4c00;
+  color: #ff004c;
   pointer-events: none;
 }
 

@@ -13,7 +13,7 @@ export default function HomePageCareerCTA() {
           </h2>
 
           <p className={styles.subtext}>
-            You’ve done your part, now let Flashfire handle the job hunt. <br />
+            You’ve done your part, now let JobNeuron handle the job hunt. <br />
             Our AI-powered team gets your profile recruiter-ready and{" "}
             <strong>
               applies to the right jobs so you can land interviews faster.
