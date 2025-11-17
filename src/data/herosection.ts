@@ -7,6 +7,7 @@ export const heroSectionData: HeroSectionData = {
   description:
     "Jobneuron handles tailored job applications, resume alignment, and recruiter-facing optimization — ensuring your profile reaches the right companies, faster.",
   cta: { label: "Try Jobneuron free for 7 Days →", href: "/" },
+  blogs: { label: "Read our Blogs for free →", href: "/blogs" },
   trustText: "Rated 4.9/5 by job seekers transitioning into U.S. roles",
   universityHeading:
     "TrusteTrusted by candidates from top-ranked global institutions.",

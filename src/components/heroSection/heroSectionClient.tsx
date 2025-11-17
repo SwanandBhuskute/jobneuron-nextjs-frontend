@@ -12,6 +12,11 @@ type Props = {
 export default function HeroSectionClient({ data }: Props) {
   return (
     <section className={styles.heroContainer}>
+      {/* === Blogs Button === */}
+      <Link href={data.blogs.href} className={styles.heroBlogsButton}>
+        {data.blogs.label}
+      </Link>
+
       {/* === Top Badges === */}
       <div className={styles.heroBadges}>
         {data.badges.map((badge) => (
